@@ -105,3 +105,13 @@ function square(number) {
 console.log(square(2));
 
 //how can i code a button.
+
+
+
+
+
+
+
+
+
+//BARRING ALL THE ABOVE CODE I AM GOING TO USE THE NEXT METHODS TO PUSH AN ARRAY OF IMAGES ONTO MY WEBSITE
