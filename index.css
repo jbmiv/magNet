@@ -1,6 +1,29 @@
 img{
     length: 280px;
     width: 360px;
-        }   
+}   
     .date {font-weight: bold;}
 /* this is a commet*/
+
+
+
+/*
+
+
+         .web {
+            width: 800px;
+            height: 1000px;
+            background-image: url(https://dummyimage.com/800x600/000/fff), url(https://dummyimage.com/800x300/555/fff);
+            background-size: 300px 200px, 300px 100px;
+            background-repeat: no-repeat, no-repeat;
+            background-position: center 0px, center 200px;
+        }
+    
+
+        <div class="web"></div>
+
+this could be help[ful i found it on stakx overflow
+https://stackoverflow.com/questions/40806931/how-to-add-multiple-images-in-background-body
+
+
+*/
