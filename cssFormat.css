@@ -1,0 +1,115 @@
+/*
+x
+CSS 
+is a styling language to modify webpage content
+
+HTML is used for webpage content
+*/
+
+/*
+selector {
+    prop1: v;/* properties,,, selectors apply to html elements like head ,,, body
+        and allows configuration of all html elements of that type. 
+        class selector allows html elements to be selected based on class elements..
+        
+        use .class-name{} as the selector
+    prop2: v;
+}
+    */
+
+
+    /* three similar buttons..each a different color}
+.btn{
+opadding: 10px;
+color: white;
+}
+
+.btn-1{background-color: green;}
+.btn-2{background-color: blue;}
+.btn-3{background-color: purple;}
+*/
+
+/*inside the html code apply each class to each button
+<button class = "btn btn-1">
+button 1 
+</button>
+
+<button class = "btn btn-2">
+button 2 
+</button>
+
+<button class = "btn btn-3">
+button 3 
+</button>
+
+
+
+
+ID selector
+    an alement can only have one ID but can have multiple classes
+        an ID should be unique across an HTML webpage.
+        #id{
+        property:value;
+        
+    }
+
+    SELECTOR COMBINATIONS
+.selector-1.select-2{
+}
+
+#big-blue.large.blue{}
+
+h1.large-header{}
+
+//combine selectors to create specific or general rules
+
+
+.acestor .child{
+}
+
+div p{ color red;}//applies to all ptags with a div ancestor
+
+
+
+//everything selector
+
+*{
+    font-family: ARIAL
+}
+
+
+
+DO NOT  WRITE INLINE CSS.
+YOU MUST LOAD THE CSS INTO THE HTML
+
+
+to load external CSS:
+        in the head.. <link rel="stylesheet" href="style.css" />
+
+inline styles could be good for on the spot changes and style tests...  but actual style needs to be implemente in the css document
+
+
+
+element selectors are the lowest level selector..overridden by class selector.. which is overidden by id selector
+
+
+colors: rgb, 0-255,   rgb, 0-255 and alpha for transparency
+#xxxxxxXX
+hexacode...XX for alpha
+
+
+
+.box {
+    height: 100px;
+    width: 100px;
+    padding: 20px;/*elements and their border
+    margin: 50px;/*elements and other elements
+    border: 10px solid black;
+    background-color: red;
+}
+uunits: em ...used for fonts and padding... %.. % of the screen///
+    rem..scales off of font size but from root of document..
+    em..scales off parent ...body that the box is in... 
+*/
+
+

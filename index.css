@@ -5,7 +5,13 @@ img{
     .date {font-weight: bold;}
 /* this is a commet*/
 
-
+<style>
+img{
+    width:200px;
+    height:200px;
+    object-fit: cover;
+}
+</style>
 
 /*
 
