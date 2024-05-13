@@ -1,0 +1,20 @@
+/* Style for the navigation bar */
+.navbar {
+    position: fixed; /* Set this to "absolute" if you want it to scroll along with your page (not recommended, as header usually stays at top) */
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;   /* Adjust this value according to your needs */
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* Style for the links in the navigation bar */
+.navbar a {
+    color: white;   /* Change this to any color you want */
+    text-decoration: none;  /* Remove underline */
+    font-size: 1em; /* Adjust this according to your needs */
+}

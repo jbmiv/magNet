@@ -1,21 +1,48 @@
-img{
-    length: 280px;
-    width: 360px;
-}   
-    .date {font-weight: bold;}
-/* this is a commet*/
+@import url(../style/main.css);
 
-<style>
-img{
-    width:200px;
-    height:200px;
-    object-fit: cover;
+
+
+
+/* Homepage style */
+.home {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
 }
-</style>
+
+header {
+    background-color: #51a7d3;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    float: left;
+    width: 70%;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+aside {
+    float: right;
+    width: 30%;
+    padding: 15px;
+    color: white;
+    background-color: #e86c2d;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    background-color: #393f4a;
+    color: white;
+}
+
+
 
 /*
-
-
          .web {
             width: 800px;
             height: 1000px;
@@ -30,6 +57,4 @@ img{
 
 this could be help[ful i found it on stakx overflow
 https://stackoverflow.com/questions/40806931/how-to-add-multiple-images-in-background-body
-
-
 */
