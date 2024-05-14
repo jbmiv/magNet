@@ -1,20 +1,56 @@
+
+#navbar-container {
+    margin-bottom: 40px;
+}
+
+
 /* Style for the navigation bar */
 .navbar {
+    display: flex;
+    justify-content: space-around; /* Aligns items more closely centered */
+    z-index: 1000; /* High value to keep navbar on top */
     position: fixed; /* Set this to "absolute" if you want it to scroll along with your page (not recommended, as header usually stays at top) */
     top: 0;
     left: 0;
     right: 0;
-    height: 50px;   /* Adjust this value according to your needs */
-    background-color: #333;
-    color: white;
-    display: flex;
-    justify-content: space-around;
+    height: 30px;   /* Adjust this value according to your needs */
+    background-color: #3a3246;
     align-items: center;
+    box-shadow: 0 2px 4px rgba(133, 19, 19, 0.1);
+    transition: background-color 0.3s;
 }
 
 /* Style for the links in the navigation bar */
 .navbar a {
-    color: white;   /* Change this to any color you want */
+    color: #f3dd19;   /* Change this to any color you want */
     text-decoration: none;  /* Remove underline */
     font-size: 1em; /* Adjust this according to your needs */
+    transition: color 0.3s;
+
+}
+
+.navbar a:hover {
+    color: #ccc; /* Lighter color on hover */
+    text-decoration: underline; /* Optionally add an underline on hover */
+}
+
+.navbar a:focus {
+    color: #ccc; /* Similar to hover effect */
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 0 3px rgba(255,255,255,0.5); /* Custom focus style */
+}
+
+
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+    .navbar a {
+        padding: 10px;
+        text-align: center;
+        width: 100%;
+        display: block;
+    }
 }

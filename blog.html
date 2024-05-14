@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta
+      charset="UTF-8"
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
     <title>Blog</title>
     <link rel="stylesheet" href="./styles/blogStyles.css" />
+    <script src="./scripts/loadNavbar.js" defer></script>
   </head>
 
   <body>
-    <div class=".navbar">
-      <a href="./index.html">Home</a>
-      <a href="./blog.html">Blog</a>
-      <a href="mailto:jamesmarshiv@gmail.com">Email</a>
-    </div>
+    <div id="navbar-container"></div>
 
     <div class="post-container">
-      <div class="post">
+      <article class="post">
         <img src="./images/blur2.JPG" alt="blurry photo 2" />
         <h2>I tried fixing the directory structure</h2>
         <p>
@@ -22,9 +23,9 @@
           <b>image unrelated</b><br />
           13 May 2024<br />
         </p>
-      </div>
+      </article>
 
-      <div class="post">
+      <article class="post">
         <img src="./images/rainbow.jpg" alt="me between friends" />
         <h2>I'm on an airplane</h2>
         <p>
@@ -33,13 +34,19 @@
           <b>image unrelated</b><br />
           12 May 2024<br />
         </p>
-      </div>
+      </article>
 
-      <div class="post">
+      <article class="post">
         <img src="./images/blur1.jpg" alt="blurry photo 1" />
-        <h2></h2>
-        <p></p>
-      </div>
+        <h2>test</h2>
+        <p>test</p>
+      </article>
+
+      <article class="post">
+        <img src="./images/blur1.jpg" alt="blurry photo 1" />
+        <h2>test</h2>
+        <p>test</p>
+      </article>
     </div>
   </body>
 </html>
